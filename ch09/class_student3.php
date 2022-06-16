@@ -1,6 +1,8 @@
 <?php
     // public (접근지시어, 접근제어자, Access Modifier)
     // public(완전 오픈), protected, private(은닉화, 캡슐화 /  class 안에서만 사용 할 수 있음)
+
+    // error 예시!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     class Student {
         private $studentId;
         private $studentName;
