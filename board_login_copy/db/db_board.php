@@ -19,6 +19,11 @@
         mysqli_close($conn);
     }
 
+    // reply
+    function ins_reply(&$param) {
+        
+    }
+
     function sel_paging_count(&$param) // 페이징
     {
         $sql =

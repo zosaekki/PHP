@@ -40,6 +40,15 @@
     <div>작성일시 : <?=$item["created_at"]?></div>
     <div>수정일시 : <?=$item["updated_at"]?></div>
     <div>내용 : <?=$item["ctnt"]?></div>
+    <hr>
+    <form action="reply_proc.php" method="POST">
+        <div>댓글</div>
+        <div>
+            <input type="text" placeholder="댓글내용">
+            <input type="submit" value="댓글작성">
+        </div>
+    </form>
+    
     <script>
         function isDel()
         {
